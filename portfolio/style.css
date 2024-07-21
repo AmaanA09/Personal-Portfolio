@@ -1,0 +1,533 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* header css start */
+
+body{
+    background-color: #F5F5F5;
+}
+
+#nav-bar{                                 /* head background color*/
+    position: relative;
+    background-color: #282828;
+    width:100%;
+}
+.nav{                              /* head inner div*/
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px 30px 60px;
+}
+#navigation > ul{                        /* ul tag*/
+    display:flex;
+    position:relative;
+    list-style: none;
+    top:15px;  
+} 
+#navigation > ul > li{
+    font-size: 25px;
+
+}
+#navigation > ul > li >a{               /* anchor tag*/
+    color: #ffffff;
+    text-decoration: none; 
+    padding: 0px 20px;
+    cursor: pointer; 
+      
+}
+
+ #search-bar {                          /*  search bat wrapper*/
+    position: relative;
+}
+
+#search-bar{
+    position: relative;
+    padding-right: 80px;
+}
+
+#search-bar > input{
+    background-color: #383838;
+    color:#ffffff ;
+    padding: 15px 8px 15px 8px;
+    border:none;
+    border-radius: 5px;
+    max-width: 230px ;
+}
+
+input[value]{                              /* search bar inner value*/
+    font-size: 20px ;
+    padding-left: 35px !important;
+}
+
+#search-bar > i{
+    position: absolute;
+    color: #ffffff;
+    padding: 18px 20px 0px 10px;
+}
+
+/* header closed */
+
+/* vedio section start */
+
+#inroduction-section{
+    position: relative;
+
+}
+
+.banner > video{
+    width:100%;
+}
+#techpaathshala{
+    position: absolute;
+    background-color: #ffff99;
+    padding: 5px 100px 5px 100px;
+    left:28%;
+    border: 2px solid yellow;
+    border-top: none;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+#Perform{
+    font-size:25px;
+    font-weight:500;
+}
+
+/* video section end */
+
+/* about-section start */
+
+#about-section{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.about-me{
+    padding: 50px 0px 0px 40px;
+}
+
+.work-name{
+    font-size: 50px;
+    font-weight: 700;
+}
+.my-name{
+    font-size: 42px;
+    padding-top: 10px;
+}
+.about-me{
+    width: 50%;
+}
+.about-me > p{
+    font-size: 22px;
+    line-height: 28px;
+    padding-top: 30px;
+}
+
+.button{    
+    padding-top: 20px;
+}
+.button1{
+    background-color: #3457D5;
+    color: #ffffff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.button2{
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 2px solid #3457D5;
+    background-color: transparent;
+    translate: 20px 0px;
+}
+/* cloud front and cloud flare */
+#image1{
+    position: relative;
+    translate: 0px -220px; 
+}
+
+/* about-section end */
+
+/* developer section start */
+
+#developer-section{
+   padding: 0px 100px;
+   translate: 0px -100px;
+}
+
+.work-specialist{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px; */
+    border-radius: 15px;
+    padding: 20px 0px;
+}
+
+.work-specialist > h2{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    
+}
+.work-specialist > hr{
+    position: relative;
+    border: 1px solid #000000;
+    width: 50%;
+    left: 25%;
+}
+
+.fb-end{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fb-end > p{
+    font-size: 28px;
+    padding-top: 10px;
+}
+/* developer section end */
+
+/* expertise start */
+
+#expertise{
+    position: relative;
+    padding: 0px 110px;
+
+}
+
+.expert-inner{
+    position: relative; 
+    padding: 20px 280px 20px 20px ;
+    display: flex;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:15px ;
+}
+
+.expert-inner > img{
+    width: 260px;
+    height: 230px;
+    border-radius: 5px;
+}
+
+#expertise > h2{
+    font-size: 50px;
+    padding-bottom: 55px;
+}
+
+.expert-description{
+    padding-left: 20px;
+    
+}
+
+.expert-description > h2{
+    font-size: 40px;
+    padding: 0px 0px 25px 0px;
+}
+
+.expert-description > p{
+    font-size: 24px;
+}
+
+/* expertise end */
+/* skill start */
+#tech-skill-section{
+    position:relative;
+    padding: 0px 110px;
+    top: 80px;
+
+}
+
+.tech-skill-inner-div > h2{
+    font-size: 50px;
+    padding-bottom: 80px;
+}
+
+.skills{
+    display: flex;
+    /* flex-wrap:nowrap; */
+    justify-content: space-around;
+}
+
+.logo-png > img{
+    width:100px;
+    /* padding-right:80px; */
+    /* background-color: #F5F5F5 !important; */
+}
+
+.logo-png > p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+/* skill end */
+/* soft skill start */
+
+#softSkill-section{
+    position:relative;
+    padding: 0px 110px;
+    top: 150px;
+}
+
+.soft-skill-inner-div > h2{
+    font-size:50px;
+    padding-bottom: 80px;
+
+}
+
+.icon-div{
+    display:flex;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 20px 0px;
+}
+
+.icon-div > div > i{
+    font-size: 75px;
+    color:#3457D5;
+    padding: 30px 0px 30px 40px;
+
+}
+#done > i{
+    margin-left:-20px
+}
+
+.icon-div > div > p{
+    font-size: 28px;
+    text-align: center;
+}
+/* soft skill end */
+/* project section start */
+
+#project-section{
+    position:relative;
+    padding: 0px 110px;
+    top: 210px;
+
+}
+
+.project-inner-div > h2{
+    font-size: 50px;
+    padding-bottom: 55px;
+
+}
+
+.project-card{
+    width:350px;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.project-card > img{
+    position: relative;
+    width:320px;
+    height:220px;
+    border-radius: 10px ;
+    /* padding-bottom: 20px; */
+}
+
+.project-card > h4  {
+    font-size: 22px;
+    padding: 18px 0px;
+}
+
+.project-card > p{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.button3{
+    width:320px;
+    border: none;
+    background-color: #3457D5;
+    color:#ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+/* project end */
+/* experience section start */
+
+#experience-section{
+    position:relative;
+    padding: 0px 110px;
+    top: 300px;
+}
+
+.experience-inner-div > h2{
+    font-size: 50px;
+    padding-bottom: 55px;
+
+}
+.company-card{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 20px;
+    width: 550px;
+}
+
+.google-logo > img{
+    width:200px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.google-logo > button{
+    width:230px;
+    border: none;
+    background-color: #3457D5;
+    color: #ffffff;
+    padding: 10px;
+    border-radius:5px;
+}
+
+.company-info{
+    padding-left: 20px;
+}
+
+.company-info > h4{
+    font-size: 22px;
+}
+
+.company-info > p{
+    font-size: 16px;
+    padding-top: 6px;
+}
+/* company section end */
+/* qualification start */
+
+#qualification-section{
+    position:relative;
+    padding: 0px 110px;
+    top: 380px;
+    margin-bottom: 100px;
+}
+
+
+#qualification-section > h2{
+   font-size: 50px;
+   padding-bottom: 30px;
+}
+
+.qualification-inner-div{
+    position: relative;
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+#education-list{
+    flex: 1;
+}
+#education-list > li{
+    list-style: none;
+}
+#education-list > li > h4{
+    font-size: 35px;
+    padding-top: 40px;
+
+}
+#education-list > li > p{
+    font-size: 20px;
+    /* padding-bottom: 25px; */
+}
+#education-list > li > .circle{
+    position: absolute;
+    width:18px;
+    height:18px;
+    border-radius: 50%;
+    background-color:black ;
+    left:0px;
+    margin-top: -55px; /* sirf top dene se all merge in one*/
+}
+
+#education-list > li > .line{
+    position: absolute;
+    width:5px;
+    height:24%;
+    background-color: #000000;
+    left:6px;
+    margin-top: -46px;
+}
+
+.education-image{
+    flex: 1;
+}
+
+.education-image > img{
+    width:470px;
+    border-radius: 10px;
+    margin-top: 50px;
+    /* padding-bottom: 10px; */
+}
+
+.education-image > p{
+    padding-top :15px;
+    font-size: 18px;
+}
+
+/* qualification end */
+
+#footer{
+    position:relative;
+    padding: 0px 110px;
+    background-color: #282828;
+    top: 450px;
+}
+
+.footer-inner-div{
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer-inner-div > img{
+    width: 170px;
+    background-color: #F5F5F5;
+    border-radius: 50%;
+    border: 4px solid #282828;
+    margin-top: -110px;
+}
+
+.footer-inner-div > h3{
+    font-size: 26px;
+    padding:10px 0px;
+}
+
+.footer-inner-div > p{
+    font-size: 18px;
+    padding: 10px;
+}
+
+.footer-inner-div > button{
+    font-size: 16px;
+    border: none;
+    background-color: #3457D5;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius:5px;
+    margin: 10px 0px;
+    margin-bottom: 40px;
+
+}
+
+#footer-copy-right{
+    position:relative;
+    padding: 0px 110px;
+    background-color: #F5F5F5;
+    top:450px;
+
+}
+
+#copy-right{
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
