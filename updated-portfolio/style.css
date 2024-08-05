@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     box-sizing: border-box;
+    font-family:poppins;
 }
 
 /* header css start */
@@ -34,7 +35,7 @@ body{
     color: #ffffff;
     text-decoration: none; 
     padding: 0px 20px;
-    cursor: pointer; 
+    cursor: pointer;
       
 }
 
@@ -95,6 +96,10 @@ input[value]{                              /* search bar inner value*/
     font-weight:500;
 }
 
+#techpaathshala > a{
+    cursor: pointer;
+}
+
 /* video section end */
 
 /* about-section start */
@@ -136,6 +141,7 @@ input[value]{                              /* search bar inner value*/
     border: none;
     border-radius: 5px;
     font-size: 16px;
+    cursor: pointer;
 }
 .button2{
     padding: 12px 25px;
@@ -145,11 +151,15 @@ input[value]{                              /* search bar inner value*/
     border: 2px solid #3457D5;
     background-color: transparent;
     translate: 20px 0px;
+    cursor: pointer;
 }
 /* cloud front and cloud flare */
-#image1{
+#about-image{
     position: relative;
-    translate: 0px -220px; 
+    translate: -100px -270px;
+    filter: drop-shadow(20px 20px 30px );
+    /* width: 100%;*/
+    /* height: 900px;  */
 }
 
 /* about-section end */
@@ -157,8 +167,11 @@ input[value]{                              /* search bar inner value*/
 /* developer section start */
 
 #developer-section{
+   position: relative;
+   width: 100%;
    padding: 0px 100px;
-   translate: 0px -100px;
+   translate: 0px -80px;
+   /* z-index: 1000 !important; */
 }
 
 .work-specialist{
@@ -166,7 +179,7 @@ input[value]{                              /* search bar inner value*/
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     /* box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px; */
     border-radius: 15px;
-    padding: 20px 0px;
+    padding: 25px 0px;
 }
 
 .work-specialist > h2{
@@ -251,12 +264,14 @@ input[value]{                              /* search bar inner value*/
 
 .skills{
     display: flex;
-    /* flex-wrap:nowrap; */
-    justify-content: space-around;
+    gap: 80px;
+    /* padding: 50px 0px;    */
 }
 
 .logo-png > img{
-    width:100px;
+    width:130px;
+    height:80%;
+    gap:20px;
     /* padding-right:80px; */
     /* background-color: #F5F5F5 !important; */
 }
@@ -494,6 +509,7 @@ input[value]{                              /* search bar inner value*/
     border-radius: 50%;
     border: 4px solid #282828;
     margin-top: -110px;
+    /* height: 100%; */
 }
 
 .footer-inner-div > h3{
